@@ -3,11 +3,11 @@
 !config/*
 !snakemake_profiles
 !snakemake_profiles/**
-!**Snakefile
+!workflow/Snakefile
 !**config.yaml
 !**samples.tsv
 !workflow
-!workflow/**
+!workflow/**/*
 !environment.yaml
 !LICENSE
 !README.md
