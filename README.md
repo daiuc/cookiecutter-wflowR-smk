@@ -32,14 +32,15 @@ After filling the prompts, this will create a project template with the followin
 │   │   └── myenv.yaml
 │   ├── LICENSE.md
 │   ├── README.md
-│   ├── rules
-│   │   ├── common.smk
-│   │   └── other.smk
-│   ├── samples.tsv
-│   ├── scripts
-│   │   └── common
-│   │       └── __init__.py
-│   ├── Snakefile
+│   ├── workflow
+│   │   ├── Snakefile 
+│   │   ├── rules
+│   │   ├── scripts
+│   │   ├── notebooks
+│   │   ├── reports
+│   │   └── envs
+│   │       ├── {{\ cookiecutter.repo_name\ }}.yaml
+│   │       └── myenv.yaml
 │   ├── snakemake_profiles
 │   │   └── slurm
 │   │       ├── cluster-config.yaml
