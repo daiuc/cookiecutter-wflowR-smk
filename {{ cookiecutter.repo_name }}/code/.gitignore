@@ -1,6 +1,8 @@
 *
 !config
 !config/*
+!resources
+!results
 !snakemake_profiles
 !snakemake_profiles/**
 !workflow/Snakefile
